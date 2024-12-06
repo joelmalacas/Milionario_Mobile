@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#134D9A"
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logo"
+        tools:layout_height="50dp"
+        tools:layout_width="50dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="394dp"
+        android:layout_height="341dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:id="@+id/Question15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15- 2 000 000 €"
+            android:textColor="#FF9800"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Question14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14- 1 700 000 €"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Question13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13- 1 500 000 €"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/Question12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12- 1 250 000 €"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/Question11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11- 1 100 000 €"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/Question10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10- 1 000 000 €"
+            android:textColor="#FF9800"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Question9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9- 500 000 €"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Question8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8- 200 000 €"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Question7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7-  100 000 €"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Question6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6- 50 000 €"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/Question5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5- 10 000 €"
+            android:textColor="#FF9800"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4- 5000 €"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/Question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3- 1000 €"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/Question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeMaxTextSize="20dp"
+            android:text="2- 500 €"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/Question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1- 100 €"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ViewPergunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Pergunta:"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/buttonDesistir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DE3D3D"
+        android:text="Desistir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:height="60dp"
+        android:text="A-"
+        app:layout_constraintTop_toBottomOf="@+id/ViewPergunta"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/ButtonB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="60dp"
+        android:text="B-"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <Button
+        android:id="@+id/ButtonC"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:height="60dp"
+        android:text="C-"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonB" />
+
+    <Button
+        android:id="@+id/ButtonD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="60dp"
+        android:text="D- "
+        app:layout_constraintTop_toBottomOf="@+id/ButtonC"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <Button
+        android:id="@+id/buttonAjuda50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50:50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAjudaTroca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⇋"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAjuda50" />
+
+    <Button
+        android:id="@+id/buttonParar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#009688"
+        android:text="Parar"
+        android:textColor="#000000"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDesistir" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
